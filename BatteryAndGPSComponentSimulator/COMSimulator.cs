@@ -1,5 +1,7 @@
 ﻿
 using System.IO.Ports;
+using System.Text.Json;
+
 
 
 namespace BatteryAndGPSComponentSimulator
@@ -8,10 +10,13 @@ namespace BatteryAndGPSComponentSimulator
     {
         public static void Main()
         {
+            string appsettings = File.ReadAllText("appsettings.json");
+            var appsettingsDict = JsonSerializer.Deserialize<Dictionary<string, string>>(appsettings);
+            string newPortName = appsettingsDict["PortName"];
             // Set up the serial port
             SerialPort serialPort = new SerialPort
             {
-                PortName = "COM1", // Change COM port as necessary
+                PortName = newPortName,
                 BaudRate = 9600,
                 Parity = Parity.None,
                 DataBits = 8,
