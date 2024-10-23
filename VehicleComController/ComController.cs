@@ -1,5 +1,6 @@
 ﻿using System.IO.Ports;
 using System.Text.Json;
+using Microsoft.Extensions.Configuration;
 
 namespace VehicleComController
 {
@@ -8,13 +9,14 @@ namespace VehicleComController
     {
         static void Main(string[] args)
         {
-            string appsettings = File.ReadAllText("appsettings.json");
-            var appsettingsDict = JsonSerializer.Deserialize<Dictionary<string, string>>(appsettings);
-            string newPortName = appsettingsDict["PortName"];
+            var appsettings = new ConfigurationBuilder()
+                .SetBasePath(AppContext.BaseDirectory)
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
             // Set up the serial port to read from
             SerialPort serialPortControlUnits = new()
             {
-                PortName = newPortName, // Change COM port as necessary
+                PortName = appsettings["PortName"], // Change COM port as necessary
                 BaudRate = 9600,
                 Parity = Parity.None,
                 DataBits = 8,

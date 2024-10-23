@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joakim/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj": {}
+    "/Users/joakim/L-sning1TillBatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj": {}
   },
   "projects": {
-    "/Users/joakim/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj": {
+    "/Users/joakim/L-sning1TillBatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joakim/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj",
+        "projectUniqueName": "/Users/joakim/L-sning1TillBatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj",
         "projectName": "BatteryAndGPSComponentSimulator",
-        "projectPath": "/Users/joakim/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj",
+        "projectPath": "/Users/joakim/L-sning1TillBatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj",
         "packagesPath": "/Users/joakim/.nuget/packages/",
-        "outputPath": "/Users/joakim/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/obj/",
+        "outputPath": "/Users/joakim/L-sning1TillBatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/joakim/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24473.5, )"
+            },
             "System.IO.Ports": {
               "target": "Package",
               "version": "[8.0.0, )"

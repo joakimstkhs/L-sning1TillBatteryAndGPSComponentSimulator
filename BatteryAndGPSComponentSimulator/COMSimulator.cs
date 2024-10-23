@@ -1,6 +1,8 @@
 ﻿
 using System.IO.Ports;
 using System.Text.Json;
+using Microsoft.Extensions.Configuration;
+
 
 
 
@@ -10,13 +12,14 @@ namespace BatteryAndGPSComponentSimulator
     {
         public static void Main()
         {
-            string appsettings = File.ReadAllText("appsettings.json");
-            var appsettingsDict = JsonSerializer.Deserialize<Dictionary<string, string>>(appsettings);
-            string newPortName = appsettingsDict["PortName"];
+            var appsettings = new ConfigurationBuilder()
+                .SetBasePath(AppContext.BaseDirectory)
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
             // Set up the serial port
             SerialPort serialPort = new SerialPort
             {
-                PortName = newPortName,
+                PortName = appsettings["PortName"],
                 BaudRate = 9600,
                 Parity = Parity.None,
                 DataBits = 8,

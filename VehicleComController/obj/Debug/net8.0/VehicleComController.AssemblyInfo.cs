@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VehicleComController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc2fff078f2df3e2e04e8c15931e15746d9e5467")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5932e5a09f5c5ecd9a87231eebeef1800245073d")]
 [assembly: System.Reflection.AssemblyProductAttribute("VehicleComController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VehicleComController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

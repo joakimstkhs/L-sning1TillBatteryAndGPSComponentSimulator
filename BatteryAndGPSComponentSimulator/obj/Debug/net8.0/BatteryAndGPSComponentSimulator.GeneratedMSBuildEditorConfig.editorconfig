@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BatteryAndGPSComponentSimulator
-build_property.ProjectDir = /Users/joakim/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/
+build_property.ProjectDir = /Users/joakim/L-sning1TillBatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
