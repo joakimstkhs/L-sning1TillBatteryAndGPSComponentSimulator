@@ -37,15 +37,30 @@ namespace BatteryAndGPSComponentSimulator
                 double latitude = 59.8;
                 double longitude = 17.5;
                 int consumeDistance = 1;
+                // Anvönda Haversine för att få sträcka: https://en.wikipedia.org/wiki/Haversine_formula
+                double R = 6371e3;
+                double lat1, lon1, distance, speed; 
+                
                 while (batteryLoad > 0)
                 {
+                    lat1 = longitude;
+                    lon1 = longitude;
                     // Simulate GPS data and battery load
                     latitude += rand.NextDouble();
                     longitude += rand.NextDouble();
-                    batteryLoad -= consumeDistance; 
+                    batteryLoad -= consumeDistance;
+
+                    double deltaPhi = (latitude - lat1) * Math.PI / 180;
+                    double deltaLambda = (longitude - lon1) * Math.PI / 180;
+                    double a = Math.Sin(deltaPhi / 2) * Math.Sin(deltaPhi / 2) +
+                               Math.Cos(lat1 * Math.PI / 180) * Math.Cos(latitude * Math.PI / 180) *
+                               Math.Sin(deltaLambda / 2) * Math.Sin(deltaLambda / 2);
+                    distance = R * 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+
+                    speed = distance / 2;
 
                     // Format data as a string
-                    string data = $"GPS: Lat:{latitude:F6}, Lon:{longitude:F6}, Battery:{batteryLoad}%";
+                    string data = $"GPS: Lat:{latitude:F6}, Lon:{longitude:F6}, Battery:{batteryLoad}%, Speed:{speed:F2} m/s, Distance:{distance:F2} m";
 
                     // Send data via the serial port
                     serialPort.WriteLine(data);
