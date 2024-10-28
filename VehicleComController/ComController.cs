@@ -10,7 +10,7 @@ namespace VehicleComController
         static void Main(string[] args)
         {
             var appsettings = new ConfigurationBuilder()
-                .SetBasePath(AppContext.BaseDirectory)
+                //.SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .Build();
             // Set up the serial port to read from

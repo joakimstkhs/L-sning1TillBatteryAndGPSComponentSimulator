@@ -13,7 +13,7 @@ namespace BatteryAndGPSComponentSimulator
         public static void Main()
         {
             var appsettings = new ConfigurationBuilder()
-                .SetBasePath(AppContext.BaseDirectory)
+                //.SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .Build();
             // Set up the serial port

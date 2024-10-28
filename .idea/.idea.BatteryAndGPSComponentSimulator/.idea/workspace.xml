@@ -11,39 +11,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5c407a19-c6a3-47f3-a88f-ed9719099527" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BatteryAndGPSComponentSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BatteryAndGPSComponentSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/BatteryAndGPSComponentSimulator.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/COMSimulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/COMSimulator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/bin/Debug/net8.0/BatteryAndGPSComponentSimulator.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/bin/Debug/net8.0/BatteryAndGPSComponentSimulator.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/bin/Debug/net8.0/BatteryAndGPSComponentSimulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/bin/Debug/net8.0/BatteryAndGPSComponentSimulator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/bin/Debug/net8.0/BatteryAndGPSComponentSimulator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/bin/Debug/net8.0/BatteryAndGPSComponentSimulator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/BatteryAndGPSComponentSimulator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/BatteryAndGPSComponentSimulator.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/BatteryAndGPSComponentSimulator.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/BatteryAndGPSComponentSimulator.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/BatteryAndGPSComponentSimulator.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/ref/BatteryAndGPSComponentSimulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/ref/BatteryAndGPSComponentSimulator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/refint/BatteryAndGPSComponentSimulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/Debug/net8.0/refint/BatteryAndGPSComponentSimulator.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BatteryAndGPSComponentSimulator/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleComController/ComController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/ComController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleComController/VehicleComController.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/VehicleComController.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/Debug/net8.0/VehicleComController.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VehicleComController/obj/VehicleComController.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/VehicleComController.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleComController/obj/VehicleComController.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/VehicleComController.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VehicleComController/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VehicleComController/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VehicleComController/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleComController/obj/project.packagespec.json" afterDir="false" />
@@ -53,6 +31,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,18 +45,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "joakimstkhs"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;joakimstkhs&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/joakimstkhs/L-sning1TillBatteryAndGPSComponentSimulator.git",
-    "accountId": "f9549b5f-cfa5-4fcc-ba71-ae843b6efa68"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joakimstkhs/L-sning1TillBatteryAndGPSComponentSimulator.git&quot;,
+    &quot;accountId&quot;: &quot;f9549b5f-cfa5-4fcc-ba71-ae843b6efa68&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ConsoleApp1/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -88,21 +69,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.BatteryAndGPSComponentSimulator.executor": "Run",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.BatteryAndGPSComponentSimulator.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;extra&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.BatteryAndGPSComponentSimulator">
     <configuration name="BatteryAndGPSComponentSimulator" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -168,7 +157,9 @@
       <option name="presentableId" value="Default" />
       <updated>1729614539361</updated>
       <workItem from="1729614540683" duration="4474000" />
-      <workItem from="1729621623367" duration="2529000" />
+      <workItem from="1729621623367" duration="7285000" />
+      <workItem from="1729859538831" duration="1567000" />
+      <workItem from="1730134354410" duration="301000" />
     </task>
     <servers />
   </component>
@@ -182,7 +173,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

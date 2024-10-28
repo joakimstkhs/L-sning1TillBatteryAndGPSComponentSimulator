@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatteryAndGPSComponentSimulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5932e5a09f5c5ecd9a87231eebeef1800245073d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381d57fc62ce67d8bdaef7e47fa3b3f06e549df8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatteryAndGPSComponentSimulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatteryAndGPSComponentSimulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
